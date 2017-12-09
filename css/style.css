@@ -1,0 +1,459 @@
+/* ---------- General ---------- */
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.pull-right {
+    text-align: right;
+}
+
+.pull-left {
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.white-text {
+    color: #fff !important;
+}
+
+/* ---------- Navigation ---------- */
+.navbar-dark .navbar-toggler {
+    color: #ff9023;
+    border-color: #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #676767;
+    font-weight: 500;
+}
+
+#mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+    background-color: transparent;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+/* ---------- Header ---------- */
+header.masthead {
+    background: linear-gradient(rgba(65, 74, 88, 0.85), rgba(65, 74, 88, 0.85)), url(../images/SHCC-top-img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+}
+
+.masthead {
+    padding: 100px 0;
+}
+
+header.masthead .intro-text {
+    font-size: 55px;
+    line-height: 80px;
+    color: #fff;
+    margin-bottom: 25px;
+    padding-right: 30px;
+    margin-top: 40px;
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+header.masthead .intro-list p {
+    color: #fff;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+header.masthead .intro-list .fa {
+    margin-right: 10px;
+    color: #f08e1c;
+}
+
+header.masthead .intro-list ul {
+    padding-right: 50px;
+}
+
+.custom-form .form-body .col-sm-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.custom-form .form-title {
+    padding: 20px 50px;
+    text-align: center;
+    background: #ff7a38;
+
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #f3902f , #ff7a38);
+
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f3902f, #ff7a38);
+
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f3902f, #ff7a38);
+
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f3902f , #ff7a38);
+
+    /* Standard syntax (must be last) */
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.custom-form .form-body {
+    background: #fff;
+    padding: 50px 30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.custom-form .form-body-dark {
+    background: #414143;
+    padding: 50px 30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.custom-form .btn,
+.mind-section .btn {
+    border: 2px solid #f08f1c;
+    padding: 20px 30px;
+    background: #fff;
+    margin-top: 30px;
+    color: #f08f1c;
+    border-radius: 10px;
+}
+
+.custom-form input::placeholder {
+    color: #999b9f !important;
+}
+
+.custom-form input {
+    outline: none !important;
+}
+
+.custom-form .form-control {
+    border: 0;
+    border-bottom: 1px solid #e4e7e9;
+    color: #999b9f;
+    font-size: 14px;
+}
+
+legend {
+    margin: 0;
+}
+
+/* ---------- Quote ---------- */
+.quote,
+.help,
+.mind-section {
+    padding: 100px 0;
+}
+
+.colored-bg {
+    background: #ff7a38;
+
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #f3902f , #ff7a38);
+
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #f3902f, #ff7a38);
+
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #f3902f, #ff7a38);
+
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #f3902f , #ff7a38);
+
+    /* Standard syntax (must be last) */
+}
+
+.quote img {
+    margin-bottom: 30px;
+}
+
+.quote p {
+    font-family: 'PT Serif', serif;
+    color: #ff9023;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.two-col {
+    padding-bottom: 100px;
+}
+
+.two-col h3 {
+    margin-bottom: 50px;
+}
+
+.two-col h3,
+.help h3,
+.mind-section h3,
+.sh-form h3,
+.sh-two h3 {
+    color: #5d5e60;
+    font-weight: 400;
+}
+
+.two-col p,
+.two-col li,
+.help p,
+.sh-form p,
+.sh-two p {
+    color: #898d92;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.two-col li {
+    margin-bottom: 25px;
+}
+
+.help .four-col img {
+    margin-bottom: 20px;
+}
+
+.help {
+    background: #f3f6f8;
+}
+
+.four-col .col-md-3 {
+    background: #fff;
+    padding: 30px;
+    max-width: 23%;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 27px -10px;
+}
+
+.four-col p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.four-col .title {
+    font-size: 16px;
+}
+
+.footer {
+    background: #f3f6f8;
+    padding: 30px 0;
+}
+
+.footer img {
+    margin-bottom: 30px;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #aaacaf;
+}
+
+/* What is Sexual Harassment */
+.what-is {
+    background: #f3f6f8;
+    padding: 20px 0;
+}
+
+.what-is h1 {
+    font-weight: 300;
+    color: #5d5e60;
+}
+
+.sh-form {
+    padding: 100px 0;
+}
+
+.sh-form .btn {
+    background: #414143;
+}
+
+.sh-form .form-control {
+    background: none !important;
+    border: 0;
+    border-bottom: 1px solid #5d5d60;
+}
+
+.sh-form .zip-fa {
+    position: relative;
+    top: -28px;
+    color: #999b9f;
+    left: 180px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sh-form .comments-fa {
+    position: relative;
+    top: -28px;
+    color: #999b9f;
+    left: 435px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.zip-home-fa {
+    position: relative;
+    top: -28px;
+    color: #999b9f;
+    left: 210px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.comments-home-fa {
+    position: relative;
+    top: -28px;
+    color: #999b9f;
+    left: 462px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sh-two {
+    padding-bottom: 100px;
+}
+
+.sh-two h3 {
+    margin-bottom: 50px;
+}
+
+.sh-form .second,
+.sh-two .second {
+    padding-left: 50px;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: transparent !important;
+}
+
+/* -- media screen -- */
+@media only screen and (max-width: 770px) and (min-width: 0px) {
+    .four-col .col-md-3 {
+        max-width: 100%;
+    }
+
+    header.masthead .intro-text {
+        font-size: 40px;
+        margin-top: 0;
+        padding: 0;
+        line-height: normal;
+    }
+
+    header.masthead {
+        padding: 50px 0;
+    }
+
+    .masthead .intro-list .col-md-1,
+    .two-col .col-md-1 {
+        width: 10%;
+    }
+
+    .masthead .intro-list .col-md-11,
+    .two-col .col-md-11 {
+        width: 90%;
+    }
+
+    .sh-form .second,
+    .sh-two .second {
+        padding-left: 0;
+        padding: 20px;
+    }
+
+    .sh-form,
+    .sh-two {
+        padding: 50px 0;
+    }
+
+    .two-col .second {
+        margin-top: 50px;
+    }
+
+    .btn-xl {
+        font-size: 14px;
+    }
+}
+
+@media only screen 
+  and (max-width: 768px) {
+    .four-col .col-md-3 {
+        margin: 0;
+    }
+
+    .zip-home-fa,
+    .comments-home-fa,
+    .sh-form .zip-fa,
+    .sh-form .comments-fa {
+        display: none;
+    }
+}

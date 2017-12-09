@@ -1,0 +1,140 @@
+/*
+Theme Name: shcc-wp
+Theme URI: http://example.com
+Author: Your name
+Author URI: http://pinegrow.com/
+Description: This theme was created with Pinegrow Web Editor.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: shcc_wp
+*/
+
+.menu-item-has-children a:after,
+.social-navigation a:before,
+
+
+
+
+/**
+ * 6.2 - Menus
+ */
+
+.site-header-menu {
+	display: none;
+	-webkit-flex: 0 1 100%;
+	-ms-flex: 0 1 100%;
+	flex: 0 1 100%;
+	margin: 0.875em 0;
+	float: right;
+}
+
+.site-header-menu.toggled-on,
+.no-js .site-header-menu {
+	display: block;
+}
+
+.main-navigation {
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+
+
+.site-footer .main-navigation {
+	margin-bottom: 1.75em;
+}
+
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+.main-navigation li {
+	border-top: 1px solid #d1d1d1;
+	position: relative;
+}
+
+.main-navigation a {
+	color: #1a1a1a;
+	display: block;
+	line-height: 1.3125;
+	outline-offset: -1px;
+	padding: 0.84375em 0;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+	color: #007acc;
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a {
+	font-weight: 700;
+}
+
+.main-navigation ul ul {
+	display: none;
+	margin-left: 0.875em;
+}
+
+.no-js .main-navigation ul ul {
+	display: block;
+}
+
+.main-navigation ul .toggled-on {
+	display: block;
+}
+
+.main-navigation .primary-menu {
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.main-navigation .menu-item-has-children > a {
+	margin-right: 56px;
+}
+
+.dropdown-toggle {
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	color: #1a1a1a;
+	content: "";
+	height: 48px;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	text-transform: none;
+	top: 0;
+	width: 48px;
+}
+
+.dropdown-toggle:after {
+	border: 0 solid #d1d1d1;
+	border-left-width: 1px;
+	content: "\f431";
+	font-size: 24px;
+	left: 1px;
+	position: relative;
+	width: 48px;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+	background-color: transparent;
+	color: #007acc;
+}
+
+.dropdown-toggle:focus {
+	outline: thin dotted;
+	outline-offset: -1px;
+}
+
+.dropdown-toggle:focus:after {
+	border-color: transparent;
+}
+
+.dropdown-toggle.toggled-on:after {
+	content: "\f432";
+}
+
